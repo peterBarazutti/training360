@@ -1,4 +1,4 @@
 package training.employees;
 
-public class EmployeesRepository {
+public interface EmployeesRepository {
 }
