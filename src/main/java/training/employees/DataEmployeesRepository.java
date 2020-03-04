@@ -1,4 +1,6 @@
 package training.employees;
 
-public interface DataEmployeesRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface DataEmployeesRepository extends JpaRepository<Employee, Long> {
 }
